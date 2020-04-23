@@ -1,0 +1,14 @@
+Base de datos
+SELECT name, start_date, avg(score), stdev(score), min(score), max(score)
+FROM courses, evaluations
+GROUP BY name, start_date;
+
+Sistemas operativos
+Exclusion mutua se basa en no hacer uso de un mismo recurso por varios proceso, excluyendo temporalmente a otros procesos 
+mientra se esta ejecutando el primer proceso, garantizando de esta forma la integridad del sistema.
+
+Redes
+Socket es un metodo de comunicacion bidireccional entre un programa del cliente y un programa del servidor en una red, 
+los que se trabajan a traves de peticiones de llamadas de funcion(api). Se necesita establecer una direccion que los 
+clientes puedan usar y conectarse al servidor, para asi enviar una respuesta a por parte del servidor como respuesta
+a la solicitud del cliente.
